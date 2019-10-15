@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <link href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous"/>
+    
+        <link
+      href="https://fonts.googleapis.com/css?family=Open+Sans|Quicksand&display=swap"
+      rel="stylesheet"
+    />
+
+    <link rel="stylesheet" type="text/css" href="budget.css" />
+    <title>Document</title>
+  </head>
+  <body>
+    <header>
+      <h2>Available budget in sept 2019</h2>
+      <h1 class="total_budget">0</h1>
+
+      <div class="income">
+        <h3>income</h3>
+        <p class="profit">0</p>
+      </div>
+      <div class="expences">
+        <h3>Expences</h3>
+        <p class="loss">0</p>
+        <p class="percentage">--</p>
+      </div>
+    </header>
+    <main>
+      <select class="Types">
+        <option value="Inc">+</option>
+        <option value="exp">-</option></select
+      >
+      <input class="data_sub"></input>
+      <input class="value"></input>
+      <button class="done"><i class="fa fa-check-circle"></i></button>
+    </main>
+    <footer>
+      <div class="discription">
+        <div class="container">
+          <h1>Income</h1><hr>
+          <div class="Income_list">
+            <!-- <div class="list_block">
+              <h3 class="data_discription">Car</h3>
+              <div class="data_value">+500</div>
+              <div class="delete_btn"><button><i class="fa fa-times-circle"></i></button></div>
+              
+            </div>
+            <div class="list_block">
+              <h3 class="data_discription">Car</h3>
+              <div class="data_value">+500</div>
+              
+            </div> -->
+          </div>
+        
+        </div>
+        <div>
+          <h1>Expences</h1><hr>
+          <div class="Expences_list">
+            <!-- <div class="list_block">
+              <h3 class="data_discription">Car</h3>
+              <h4 class="data_value">--500</h4>
+              <p class="exp_percentage">20%</p>
+              <div class="delete_btn"><button><i class="fa fa-times-circle"></i></button></div>
+            </div>
+            <div class="list_block">
+              <h3 class="data_discription">Car</h3>
+              <h4 class="data_value">--500</h4>
+              
+            </div> -->
+          </div>
+        </div>
+      </div>
+    </footer>
+    <script src="budget.js"></script>
+  </body>
+</html>
